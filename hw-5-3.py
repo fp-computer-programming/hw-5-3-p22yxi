@@ -8,5 +8,14 @@ calendar.TextCalendar().pryear(2020)
 calendar.TextCalendar(6).pryear(2020)
 
 # Question 3
-calendar.weekday(2002,1,24)
+year = 2002
+month = 1
+x = calendar.month(year, month)
+print(x)
 
+# Question 4
+calendar.LocaleTextCalendar(6, "CHINSESE").pryear(2020)
+
+# Question 5
+calendar.isleap(2002)
+print("This is Boolean tpye，it works for find leap year")
